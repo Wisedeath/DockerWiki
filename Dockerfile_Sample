@@ -1,0 +1,12 @@
+FROM centos:latest
+
+LABEL MAINTAINER=Nicholas_Wrenn_(nlwrenn@ncsu.edu)
+
+RUN yum -y install java-1.8.0-openjdk; \
+yum -y install wget; \
+wget http://mirrors.advancedhosters.com/apache/tomcat/tomcat-8/v8.0.38/bin/apache-tomcat-8.0.38.tar.gz;\
+tar -xvf apache-tomcat-8.038.tar.gz; \
+rm apache-tomcat*.tar.gz
+
+CMD ["sleep", "300"]
+

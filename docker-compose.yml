@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+    {serviceName1}:
+        image: {project}/{component}
+        ports:
+          - {hostName:hostPort}:{containerPort}
+
+    {serviceName2}:
+        image: {project}/{component}
