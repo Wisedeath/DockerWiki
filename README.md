@@ -6,3 +6,6 @@
 1. [More Information about Docker](https://github.com/Wisedeath/DockerWiki/wiki/Primer:-Docker-Engine)
 1. [Dockerfile Reference](https://github.com/Wisedeath/DockerWiki/wiki/Reference:-Dockerfile)
 1. [Docker Engine API Reference](https://github.com/Wisedeath/DockerWiki/wiki/Reference:-Docker-Engine-API)
+
+
+# It should be noted this wiki was developed with Devicemapper, but only because RedHat (RHEL7) was utilized. There are simpler and better storage drivers that should be used if not using RedHat (RHEL7).
